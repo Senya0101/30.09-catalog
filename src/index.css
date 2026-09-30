@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #5f5c58;
+  background-image:
+    radial-gradient(#476fd4 1.2px, transparent 1.2px),
+    radial-gradient(#74b6bd 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
